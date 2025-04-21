@@ -1,9 +1,1 @@
-[
-  {
-    "id": "eaa06b6a-c235-4b46-8993-3e22110c8986",
-    "name": "Codebookpro",
-    "email": "codebookpro@gmail.com",
-    "password": "codebookpro123",
-    "rootDirId": "94887a39-1a7e-4a0d-921a-70d61f9a7306"
-  }
-]
+[{"id":"eaa06b6a-c235-4b46-8993-3e22110c8986","name":"Codebookpro","email":"codebookpro@gmail.com","password":"codebookpro123","rootDirId":"94887a39-1a7e-4a0d-921a-70d61f9a7306"},{"id":"5ce013b4-735a-48b0-9dce-0d3499b8051e","name":"Janak Bahadur Bohara","email":"janakcustomx@gmail.com","password":"janak","rootDirId":"26e8eb0d-cade-4b40-b66d-cabc5d7a08f3"},{"id":"78a9dc7e-10a4-447c-966f-fbdf0cd65800","name":"Gita Kumari Thakurathi","email":"gita@gmail.com","password":"gita","rootDirId":"2930d141-5f37-4485-972f-a7e820df77cc"},{"id":"2aceaaea-762a-4ab4-9034-678922da2199","name":"Paloma Bohara","email":"paloma@gmail.com","password":"paloma","rootDirId":"fcecb3d7-e69b-4822-b0cc-624ff0919569"}]

@@ -52,13 +52,20 @@ router.post("/", async (req, res, next) => {
 //Login
 router.post("/login", async (req, res, next) => {
   const { email, password } = req.body;
-  const user = usersData.find(
-    (u) => u.email === email && u.password === password
-  );
-  if (!user) {
+  const userWithEmail = usersData.find((u) => u.email === email);
+  const userWithPassword = usersData.find((u) => u.password === password);
+  const messageError = [];
+  if (!userWithEmail) {
+    res.status(401).json({
+      error: "Invalid credentials.",
+      message: "Email is incorrect.",
+      reason: "email",
+    });
+  } else if (!userWithPassword) {
     return res.status(401).json({
       error: "Invalid credentials.",
-      message: "Email or password is incorrect.",
+      message: "Password is incorrect.",
+      reason: "password",
     });
   }
   res.status(200).json({ message: "Login successful", userId: user.id });
