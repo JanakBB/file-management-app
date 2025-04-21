@@ -1,0 +1,10 @@
+[
+    {
+        "id": "root",
+        "name": "My Drive",
+        "userId": null,
+        "parentDirId": null,
+        "files": [],
+        "directories": []
+    }
+]
