@@ -1,0 +1,18 @@
+[
+  {
+    "id": "root",
+    "name": "My Drive",
+    "userId": null,
+    "parentDirId": null,
+    "files": [],
+    "directories": []
+  },
+  {
+    "id": "94887a39-1a7e-4a0d-921a-70d61f9a7306",
+    "name": "root-codebookpro@gmail.com",
+    "userId": "eaa06b6a-c235-4b46-8993-3e22110c8986",
+    "parentDirId": null,
+    "files": [],
+    "directories": []
+  }
+]
