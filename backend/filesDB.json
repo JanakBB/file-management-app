@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "ba423cf3-6b53-4fd3-87f9-199eec07a4df",
+    "extension": "",
+    "name": "untitled",
+    "parentDirId": "root"
+  },
+  {
+    "id": "3f307ff1-cfef-43de-b4d3-45f16dd7dd5e",
+    "extension": "",
+    "name": "untitled",
+    "parentDirId": "8b64c320-ec4f-4734-afe4-903e4aa9dd76"
+  }
+]

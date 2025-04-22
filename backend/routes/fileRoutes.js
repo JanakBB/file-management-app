@@ -47,7 +47,8 @@ router.get("/:id", (req, res, next) => {
     if(req.query.action === "download"){
         res.set("Content-Disposition", `attachment; filename=${fileData.name}`)
     }
-    return res.sendFile(`${process.cwd()}/storage/${id}${fileData.extension}`, (err) => {
+    const filePath = `${process.cwd()}/storage/${id}${fileData.extension}`;
+    return res.sendFile(filePath, (err) => {
         if(!res.headersSent && err){}
         return res.status(404).json({error: "File not found!"})
     })

@@ -4,7 +4,49 @@
     "name": "My Drive",
     "userId": null,
     "parentDirId": null,
+    "files": ["ba423cf3-6b53-4fd3-87f9-199eec07a4df"],
+    "directories": [
+      "29dd8560-130f-41fd-ac4d-db83cef7bbd8",
+      "c417bb32-5586-4410-9f2f-4e078e683f97"
+    ]
+  },
+  {
+    "id": "8b64c320-ec4f-4734-afe4-903e4aa9dd76",
+    "name": "root-janakcustomx@gmail.com",
+    "userId": "ba492e5b-3681-4a72-ab88-b5d4ea73f5e1",
+    "parentDirId": null,
+    "files": ["3f307ff1-cfef-43de-b4d3-45f16dd7dd5e"],
+    "directories": [
+      "ee0ef65f-5100-489a-bcb9-f5629227de62",
+      "4a62fa82-2a95-4dcb-8fe2-feb76e15cb66"
+    ]
+  },
+  {
+    "id": "29dd8560-130f-41fd-ac4d-db83cef7bbd8",
+    "name": "New Folder",
+    "parentDirId": "root",
     "files": [],
-    "directories": [{ "id": "a69e8f51-6696-48c1-ae8e-8d1ed60d664a" }]
+    "directories": []
+  },
+  {
+    "id": "c417bb32-5586-4410-9f2f-4e078e683f97",
+    "name": "Child of root",
+    "parentDirId": "root",
+    "files": [],
+    "directories": []
+  },
+  {
+    "id": "ee0ef65f-5100-489a-bcb9-f5629227de62",
+    "name": "New Folder",
+    "parentDirId": "8b64c320-ec4f-4734-afe4-903e4aa9dd76",
+    "files": [],
+    "directories": []
+  },
+  {
+    "id": "4a62fa82-2a95-4dcb-8fe2-feb76e15cb66",
+    "name": "Child of New folder",
+    "parentDirId": "8b64c320-ec4f-4734-afe4-903e4aa9dd76",
+    "files": [],
+    "directories": []
   }
 ]

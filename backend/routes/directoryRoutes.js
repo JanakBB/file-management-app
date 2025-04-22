@@ -33,7 +33,7 @@ router.post("/:parentDirId?", async (req, res, next) => {
     return res
       .status(404)
       .json({ message: "Parent Directory does not exists!" });
-  parentDir.directories.push({ id });
+  parentDir.directories.push( id );
   directoriesData.push({
     id,
     name: dirname,
