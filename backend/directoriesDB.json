@@ -1,1 +1,10 @@
-[{"id":"root","name":"My Drive","userId":null,"parentDirId":null,"files":[],"directories":[]},{"id":"94887a39-1a7e-4a0d-921a-70d61f9a7306","name":"root-codebookpro@gmail.com","userId":"eaa06b6a-c235-4b46-8993-3e22110c8986","parentDirId":null,"files":[],"directories":[]},{"id":"26e8eb0d-cade-4b40-b66d-cabc5d7a08f3","name":"root-janakcustomx@gmail.com","userId":"5ce013b4-735a-48b0-9dce-0d3499b8051e","parentDirId":null,"files":[],"directories":[]},{"id":"2930d141-5f37-4485-972f-a7e820df77cc","name":"root-gita@gmail.com","userId":"78a9dc7e-10a4-447c-966f-fbdf0cd65800","parentDirId":null,"files":[],"directories":[]},{"id":"fcecb3d7-e69b-4822-b0cc-624ff0919569","name":"root-paloma@gmail.com","userId":"2aceaaea-762a-4ab4-9034-678922da2199","parentDirId":null,"files":[],"directories":[]}]
+[
+  {
+    "id": "root",
+    "name": "My Drive",
+    "userId": null,
+    "parentDirId": null,
+    "files": [],
+    "directories": [{ "id": "a69e8f51-6696-48c1-ae8e-8d1ed60d664a" }]
+  }
+]
