@@ -16,55 +16,116 @@
   background-color: white;
 }
 .directory-header h1 {
-    margin: 0;
-    margin-right: 20px;
-    font-size: 2rem;
+  margin: 0;
+  margin-right: 20px;
+  font-size: 2rem;
 }
 .header-links {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
 }
 .icon-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    color: #007bff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #007bff;
 }
 .icon-button:hover {
-    color: #0046b3;
+  color: #0046b3;
 }
 .list-item {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f0f0f0;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
 }
 .hoverable-row:hover {
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 .item-left-container {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .item-left {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
 }
 .folder-icon {
-    color: #ffa500;
-    font-size: 1.2em;
+  color: #ffa500;
+  font-size: 1.2em;
 }
 .no-data-message {
-    text-align: center;
-    font-style: italic;
-    margin-top: 40px;
-    color: #777;
+  text-align: center;
+  font-style: italic;
+  margin-top: 40px;
+  color: #777;
+}
+/* Add modal styles */
+.modal-overlay {
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 4px;
+}
+.modal-content h2 {
+  margin-top: 0;
+}
+.modal-input {
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.primary-button, .secondary-button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.primary-button {
+    background-color: #007bff;
+    color: white;
+}
+.primary-button:hover {
+    background-color: #0056b3;
+}
+.secondary-button {
+    background-color: #ccc;
+    color: #333;
+}
+.secondary-button:hover {
+    background-color: #999;
+}
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
